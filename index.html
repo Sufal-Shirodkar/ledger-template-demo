@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ledger — Template Pack Demo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0B0D0C;
+    --surface: #15181A;
+    --ink: #F4F2EA;
+    --ink-dim: #8A9099;
+    --line: #24282A;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{
+    background: var(--bg); color: var(--ink);
+    font-family:'Inter', sans-serif; -webkit-font-smoothing:antialiased;
+    min-height:100vh; display:flex; flex-direction:column; align-items:center;
+    padding: 80px 24px;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:0.08em;
+    text-transform:uppercase; color: var(--ink-dim); margin-bottom:18px;
+  }
+  h1{
+    font-size: clamp(32px, 5vw, 52px); font-weight:700; letter-spacing:-0.02em;
+    text-align:center; margin-bottom:16px;
+  }
+  .sub{
+    color: var(--ink-dim); text-align:center; max-width:480px; margin-bottom:64px;
+    font-size:15px; line-height:1.6;
+  }
+  .grid{
+    display:grid; grid-template-columns: repeat(3, 1fr); gap:24px;
+    max-width:1080px; width:100%;
+  }
+  @media (max-width:860px){ .grid{ grid-template-columns:1fr; } }
+  .card{
+    background: var(--surface); border:1px solid var(--line); border-radius:16px;
+    overflow:hidden; text-decoration:none; color:inherit;
+    transition: transform .2s ease, border-color .2s ease;
+    display:flex; flex-direction:column;
+  }
+  .card:hover{ transform: translateY(-4px); border-color:#3A3F42; }
+  .preview{
+    height:180px; display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono', monospace; font-size:13px; letter-spacing:0.02em;
+  }
+  .preview.a{ background: linear-gradient(135deg, #0E1210, #171C1A); color:#C6FF3D; }
+  .preview.b{ background: linear-gradient(135deg, #F0F2F5, #FFFFFF); color:#3D5AFE; }
+  .preview.c{ background: linear-gradient(135deg, #0A0A0B, #141416); color:#FF5A36; }
+  .card-body{ padding:22px 22px 26px; }
+  .card-name{ font-size:16px; font-weight:600; margin-bottom:6px; }
+  .card-desc{ font-size:13px; color: var(--ink-dim); line-height:1.5; margin-bottom:16px; }
+  .card-cta{
+    font-family:'IBM Plex Mono', monospace; font-size:12px;
+    color: var(--ink); display:inline-flex; align-items:center; gap:6px;
+  }
+  footer{ margin-top:64px; font-size:13px; color: var(--ink-dim); text-align:center; }
+  footer a{ color: var(--ink); text-decoration: underline; }
+</style>
+</head>
+<body>
+  <div class="eyebrow">Template pack preview</div>
+  <h1>Ledger</h1>
+  <p class="sub">Three animated landing page variants, same underlying engine. Click through to see each one live — counters, scroll reveals, and floating phone mockups included.</p>
+
+  <div class="grid">
+    <a class="card" href="ledger-variant-a-ink-lime.html">
+      <div class="preview a">Ink &amp; Lime</div>
+      <div class="card-body">
+        <div class="card-name">Ink &amp; Lime</div>
+        <div class="card-desc">Dark mode, condensed bold type. Built for fintech and tracking apps.</div>
+        <div class="card-cta">View live demo →</div>
+      </div>
+    </a>
+
+    <a class="card" href="ledger-variant-b-paper-indigo.html">
+      <div class="preview b">Paper &amp; Indigo</div>
+      <div class="card-body">
+        <div class="card-name">Paper &amp; Indigo</div>
+        <div class="card-desc">Light mode, editorial serif headline. Calm and premium feel.</div>
+        <div class="card-cta">View live demo →</div>
+      </div>
+    </a>
+
+    <a class="card" href="ledger-variant-c-signal-coral.html">
+      <div class="preview c">Signal</div>
+      <div class="card-body">
+        <div class="card-name">Signal</div>
+        <div class="card-desc">Near-black, loud expanded type, mirrored layout. Startup energy.</div>
+        <div class="card-cta">View live demo →</div>
+      </div>
+    </a>
+  </div>
+
+  <footer>Available on Gumroad — <a href="#">get the full pack</a></footer>
+</body>
+</html>
