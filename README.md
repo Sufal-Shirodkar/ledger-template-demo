@@ -64,6 +64,9 @@ The phone mockup is written as generic "spending dashboard" content, but the lay
 ### 5. Change the button destination
 The `.btn-primary`, `.cta-pill`, and `.btn-ghost` elements are currently plain buttons/links (`href="#"`). Point them at your app store link, waitlist form, or signup page.
 
+### A note on the top nav
+The "Overview / Insights / Privacy / Pricing" links in the header are placeholders (`href="#"`) — this is a single-page template, not a multi-page site. They're there for visual completeness, the way a real product's nav bar looks. Point them at your own site's sections, or delete any you don't need.
+
 ## File structure
 Each file is fully self-contained — HTML, CSS, and JS all in one document, with fonts loaded from Google Fonts via CDN. There's nothing else to install or configure.
 
