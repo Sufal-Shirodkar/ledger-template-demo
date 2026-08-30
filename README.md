@@ -74,11 +74,25 @@ Each file is fully self-contained — HTML, CSS, and JS all in one document, wit
 Tested on current Chrome, Safari, and Firefox. Uses standard CSS Grid, CSS custom properties, and IntersectionObserver — all well-supported in modern browsers going back several years.
 
 ## License
-[Add your license terms here before publishing — e.g. single-use commercial license, no resale/redistribution of the template files themselves, attribution not required.]
+
+**Standard License — one purchase, unlimited personal or commercial projects.**
+
+By purchasing this template pack, you may:
+- Use any of the 3 templates in unlimited personal or commercial projects (your own apps, client work, freelance projects)
+- Modify the code freely — colors, copy, layout, structure
+- Use the final result in live, published websites without attribution
+
+You may **not**:
+- Resell, redistribute, or repackage the template files themselves (as-is or lightly modified) as your own template product
+- Share or sublicense the source files to third parties outside a single client project
+
+If you need clarification for a specific use case (e.g. building this into a paid theme marketplace listing, or using it across an agency with multiple clients), reach out before purchase.
+
+*(This is a standard single-purchase commercial license. Adjust the terms above if your situation calls for something stricter or more permissive — this text is meant as a solid starting point, not a substitute for legal advice if you have specific concerns.)*
 
 ## Credits
 Fonts used are all free and open-source via Google Fonts (Big Shoulders Display, Fraunces, Archivo Expanded, Inter, IBM Plex Mono).
 
 ---
 
-Questions or customization help? [sufaljshirodkar@gmail.com / linkedin.com/in/sufal-shirodkar]
+Questions or customization help? Reach out via Gumroad's message feature on your purchase page, and I'll get back to you.
