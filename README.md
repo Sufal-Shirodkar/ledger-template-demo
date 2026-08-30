@@ -81,4 +81,4 @@ Fonts used are all free and open-source via Google Fonts (Big Shoulders Display,
 
 ---
 
-Questions or customization help? [Add your contact/support link here.]
+Questions or customization help? [sufaljshirodkar@gmail.com / linkedin.com/in/sufal-shirodkar]
